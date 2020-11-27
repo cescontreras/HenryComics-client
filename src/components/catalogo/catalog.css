@@ -1,0 +1,41 @@
+.catalogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.filter{
+    width: 15%;
+    padding: 10px
+}
+
+.products{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+    .products-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+.carrito{
+    display: flex;
+    flex-direction: column;
+    /* width: 20%; */
+}
+
+#pagination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* display: flex;
+flex-wrap: wrap; */
+

@@ -1,0 +1,20 @@
+#user{
+  font-style: oblique;
+  font-weight: 300;
+
+}
+
+#comentario{
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.edit{
+  display: flex;
+  justify-content: space-between;
+}
+
+.eliminar{
+  border-radius: 10px;
+}

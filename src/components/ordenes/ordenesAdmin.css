@@ -1,0 +1,32 @@
+.gral-order{
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.lista-orden{
+  width: 30%;
+}
+  .lista-orden .list-group-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 50px;
+    font-size: large;
+  }
+  .lista-orden .list-group-item:hover{
+    background-color: tomato;
+    color:white
+  }
+
+.detalle-orden{
+  width: 40%;
+}
+
+.estados-select {
+  padding-left: 30px; 
+
+  font-size: 20px;
+  width: 15%;
+}

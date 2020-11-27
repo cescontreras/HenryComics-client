@@ -1,0 +1,22 @@
+.formCategories{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    align-content: flex-start;
+    width: 100%;
+    margin: 20px;
+}
+    .alert{
+        align-self: start;
+        order:2
+    }
+
+    .formCat{
+        order: 1;
+
+    }
+
+.formCategories td {
+    vertical-align: middle;
+}

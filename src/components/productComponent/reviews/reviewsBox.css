@@ -1,0 +1,80 @@
+.review-box{ 
+  width: 45% !important;  
+}
+.review-box-content .modal-header{
+  padding-bottom: 0;
+}
+.review-box-content .modal-title{
+  width: 100%;
+}
+.modal-title .rating-box{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+  .modal-title h1{
+    margin-right: 0.7em;
+  }
+
+.reviews{
+  margin-left: 10px
+}
+
+.input-review{
+  width: 100%;
+  height: 10vh;
+  overflow: auto;
+}
+
+.review-box-content .modal-body{
+  padding: 0 !important;
+}
+
+.allReviews {
+  max-height: 55vh;
+  overflow: auto;
+  padding-left: 10px;
+}
+
+.comment-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+  .comment-rate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+    .comment-rate p{
+      margin:0;
+      padding-right: 0.5em
+    }
+    .comment-rate div{
+      padding-top: 2px;
+      margin: 0;
+    }
+
+.review-box-content .modal-footer{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  padding-right: 10px
+}
+
+.function{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.function fieldset{
+  margin: 0
+}
+
+#text-comment{
+  height: auto;
+  max-height: 10vh;
+}

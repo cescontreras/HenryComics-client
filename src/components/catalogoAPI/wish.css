@@ -1,0 +1,29 @@
+.wish-bottom{
+    display: none;
+}
+.star-button{
+    display: none;
+}
+.star-button:hover #starr{
+    color: #dc3545
+}
+.container:hover .wish-bottom{
+    display: flex;
+}
+
+.container:hover .star-button{
+    display: inline-block;
+}
+
+.divload {
+    height: 250px;
+    width: 250px;
+    border-radius: 48%;
+    overflow: hidden;
+    transform: scale(0.5);
+}
+
+.load {
+    margin-left: -16.2em;
+    margin-top: -11em;
+}

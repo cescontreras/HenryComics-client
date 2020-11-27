@@ -1,0 +1,48 @@
+.filtro{
+    list-style: none;
+    padding-left: 0px;
+    line-height: 21pt;
+}
+
+.filtros-prod .card-body{
+    padding: 0.5rem
+}
+
+.filter-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.lista :hover{
+    border-bottom: 1px solid #dc3545;
+}
+
+.cursor{
+    cursor: pointer;
+    color: #343a40;
+    margin: 0;
+}
+
+.cursor:hover{
+    color :#dc3545;
+}
+
+.filter-fixed {
+    color: #343a40;
+    position: fixed;
+    width: 14%;
+    word-wrap: break-word;
+}
+
+.body{
+    max-height: 500px;
+    overflow-y: auto;
+}
+    .body h5{
+        color: white;
+    }
+    .body .cursor:hover{
+        color :black;
+    }

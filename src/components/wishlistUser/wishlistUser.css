@@ -1,0 +1,66 @@
+.check-form{
+  padding-bottom:0;
+}
+
+.form-prod{
+  margin: 0;
+}
+
+.form-prod .modal-body {
+  padding: 0;
+}
+
+.tablaProd{
+  width: 75%;
+}
+
+.input-form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 7px;
+}
+
+  .input-form label{
+    margin:0 ;
+    width: 30%;
+  }
+  .input-form input{
+    width: 70%;
+    overflow: hidden
+  }
+.desc-form{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 5px;
+}
+  .desc-form label{
+    margin:0 ;
+    width: 30%;
+  }
+  .desc-form textarea{
+    width: 70%;
+    min-height: 2em;
+    max-height: 7em;
+    font-size: medium;
+  }
+.cate-form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5px;
+}
+  .cate-form label{
+    width: 40%;
+    margin: 0;
+  }
+  .cate-form .css-2b097c-container{
+    width: 60%;
+  }
+  .cate-form select{
+    width: 70%;
+  }

@@ -1,0 +1,93 @@
+/*----------- NAVBAR -----------*/
+.saludo{
+  background: linear-gradient(to right,#dc3545 2.5em,white 0);
+  margin: auto;
+  font-weight: 600;
+  font-size: larger;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fixed {
+ height: 60px
+}
+#redtext {
+  color: white;
+  font-weight: bold;
+}
+#redtext:hover {
+  color: #dc3545;
+  text-decoration: none;
+}
+.logo {
+  width: 40px;
+  border-radius: 15%;
+  box-shadow: 3px 3px rgb(73, 73, 73);
+}
+.logo:hover {
+  width: 42px;
+}
+.divlogo {
+  width: 50px;
+  height: 50px;
+}
+
+/*----------- CARRUSEL -----------*/
+.carrousel {
+  height: 480px;
+  width: 100%;
+}
+.imgcarrousel {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+/*-------------------------------*/
+
+.footer {
+  width: 100%;
+  padding-top: 20px;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.footerLogo {
+  width: 130px;
+  margin-top: 25px;
+  margin-left: 10px;
+  border-radius: 15%;
+  box-shadow: 3px 3px rgb(73, 73, 73);
+}
+
+.redBorder {
+  border-left: 2px solid;
+  border-color :#dc3545;
+  padding-left: 20px;
+  height: 15px;
+  background-color:#dc3545;
+  color: lightgray;
+}
+
+.rutaAdmin{
+  width: 100%;
+  display: flex !important;
+  flex-direction: row;
+}
+
+.denied{
+  margin-top: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.datos-h5{
+  border-bottom: 2px solid #dc3545;
+}
+.footerBorder a{
+  color:white;
+}
+.footerBorder a:hover{
+  color:#dc3545;
+  text-decoration: none;
+}

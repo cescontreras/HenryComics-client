@@ -1,0 +1,13 @@
+.admin{
+    margin-bottom: 30px;
+}
+
+.admin .nav-link{
+    color:white
+}
+.admin .nav-link:hover{
+    color:white
+}
+.admin .nav-link.active{
+    color: #495057 !important
+}

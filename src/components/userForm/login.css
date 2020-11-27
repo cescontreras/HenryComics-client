@@ -1,0 +1,11 @@
+.link{
+    text-decoration: none !important;
+}
+.facebook{
+    width: 240px !important;
+    margin: 10px 0px 0px 0px !important;
+}
+#login-input{
+    width: 50%;
+    max-width: none;
+}
