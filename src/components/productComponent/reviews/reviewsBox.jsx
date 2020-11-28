@@ -47,7 +47,7 @@ export default function ReviewBox({
 		try {
 			if (user.id) {
 				await axios.post(
-					`http://localhost:3001/reviews/${productId}/user/${user.id}`,
+					`https://api-henrycomics.herokuapp.com/reviews/${productId}/user/${user.id}`,
 					review,
 					{ withCredentials: true }
 				);
@@ -69,7 +69,7 @@ export default function ReviewBox({
 		try {
 			const {
 				data,
-			} = await axios.get(`http://localhost:3001/products/${productId}/review`, {
+			} = await axios.get(`https://api-henrycomics.herokuapp.com/products/${productId}/review`, {
 				withCredentials: true,
 			});
 			setReviews(data);

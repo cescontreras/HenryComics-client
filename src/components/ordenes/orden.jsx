@@ -38,7 +38,7 @@ const Orden = ({ order, setStatusG, statusG, getOrder, user }) => {
 	const handleComplete = async (order) => {
 		try {
 			await axios.put(
-				`http://localhost:3001/orders/${order.id}?status=completa`,
+				`https://api-henrycomics.herokuapp.com/orders/${order.id}?status=completa`,
 				null,
 				{ withCredentials: true }
 			);
@@ -52,7 +52,7 @@ const Orden = ({ order, setStatusG, statusG, getOrder, user }) => {
 	const handleCancel = async (order) => {
 		try {
 			await axios.put(
-				`http://localhost:3001/orders/${order.id}?status=cancelada`,
+				`https://api-henrycomics.herokuapp.com/orders/${order.id}?status=cancelada`,
 				null,
 				{ withCredentials: true }
 			);
@@ -65,7 +65,7 @@ const Orden = ({ order, setStatusG, statusG, getOrder, user }) => {
 
 	const handleRemove = async (product, orden) => {
 		await axios.delete(
-			`http://localhost:3001/user/order/${orden}/product/${product}`,
+			`https://api-henrycomics.herokuapp.com/user/order/${orden}/product/${product}`,
 			{ withCredentials: true }
 		);
 		setStatusG(!statusG);

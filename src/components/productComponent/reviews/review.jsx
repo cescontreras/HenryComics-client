@@ -19,7 +19,7 @@ export default function Review({
 
 	const deleteReview = async (productId, reviewId) => {
 		await axios.delete(
-			`http://localhost:3001/reviews/${reviewId}/product/${productId}`,
+			`https://api-henrycomics.herokuapp.com/reviews/${reviewId}/product/${productId}`,
 			{ withCredentials: true }
 		);
 		getReviews();
