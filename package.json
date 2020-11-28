@@ -1,5 +1,5 @@
 {
-  "homepage": "http://cescontreras.github.io/HenryComics",
+  "homepage": ".",
   "name": "henry-comics",
   "version": "1.0.0",
   "description": "front-end henry comics",
@@ -44,7 +44,7 @@
   },
   "browserslist": {
     "production": [
-      "0.2%",
+      ">0.2%",
       "not dead",
       "not op_mini all"
     ],
